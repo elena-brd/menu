@@ -1,0 +1,81 @@
+:root {
+    --btn-title-color: #0d1b2a;
+    --bg-color: #F6F5F5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #F6F5F5, #A4EBF3);
+    color: #292929;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #292929;
+}
+
+span {
+    color: var(--btn-title-color) !important;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Navbar */
+
+#main-header {
+    margin: 0 150px;
+    background: #f4f4f4;
+    border-radius: 15px;
+
+}
+
+#main-header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18rem auto;
+    padding: 1.5rem 0;
+    border: 15px solid #fff;
+    border-radius: 10px;
+}
+
+#main-header .navbar ul li {
+    display: inline-block;
+    position: relative;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+
+.navbar ul li ul {
+    display: none;
+}
+
+/* log in and sign in btn */
+#main-header .login-menu {
+    display: flex;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+#main-header .login-menu div {
+    margin-left: 4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.btn-dark {
+    background: var(--btn-title-color);
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
